@@ -1,0 +1,10 @@
+[package]
+name = "clippings_parser"
+version = "0.1.0"
+edition = "2021"
+description = "Kindle 'My Clippings.txt' parser"
+authors = ["nemkimo <ttoth.hu@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
