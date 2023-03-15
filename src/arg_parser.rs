@@ -4,5 +4,5 @@ use clap::Parser;
 #[command(author, version, about, long_about = None)]
 pub struct Args {
     #[arg(short, long)]
-    clippings: String,
+    pub(crate) clippings: String,
 }
