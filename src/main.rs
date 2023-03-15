@@ -8,5 +8,7 @@ use clap::Parser;
 fn main() {
     let args = Args::parse();
     let result = parse_file(args.clippings).unwrap();
-    println!("{:?}", result);
+    for item in result {
+        println!("{}", item);
+    }
 }
